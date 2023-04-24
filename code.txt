@@ -1,0 +1,4 @@
+pip --trusted-host pypi.org --trusted-host files.pythonhosted.org install 
+
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
